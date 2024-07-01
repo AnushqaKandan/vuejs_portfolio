@@ -12,7 +12,7 @@
           <div id="details">
              <h1 class="lead">Anushqa Kandan</h1>
               <p v-if="title">
-                 I am a
+                 I am 
                 <span>{{ title }}</span>
               </p>
               <Spinner v-else/>

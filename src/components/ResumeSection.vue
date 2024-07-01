@@ -5,41 +5,41 @@
       </div>
        
      
-       <div class="col">  
-        <div class="card">
+       <div class="col cardResume">  
+        <div class="card text-white">
           <div id="details">
               <div v-if="resume?.length">
-                  <p>{{ resume[0].place }}</p>
-                <p>{{ resume[0].description }}</p>
+                  <p class="Resume-Title">{{ resume[0].place }}</p>
+                <p class="Resume-Description">{{ resume[0].description }}</p>
               </div>
               <Spinner v-else/>
           </div> 
         </div>
-        <div class="card">
+        <div class="card text-white">
           <div id="details">
               <div v-if="resume?.length">
-                  <p>{{ resume[1].place }}</p>
-                <p>{{ resume[1].description }}</p>
-              </div>
-              <Spinner v-else/>
-          </div> 
-        </div>
-  
-        <div class="card">
-          <div id="details">
-              <div v-if="resume?.length">
-                  <p>{{ resume[2].place }}</p>
-                <p>{{ resume[2].description }}</p>
+                  <p class="Resume-Title">{{ resume[1].place }}</p>
+                <p class="Resume-Description">{{ resume[1].description }}</p>
               </div>
               <Spinner v-else/>
           </div> 
         </div>
   
-        <div class="card">
+        <div class="card text-white">
           <div id="details">
               <div v-if="resume?.length">
-                  <p>{{ resume[3].place }}</p>
-                <p>{{ resume[3].description }}</p>
+                  <p class="Resume-Title">{{ resume[2].place }}</p>
+                <p class="Resume-Description">{{ resume[2].description }}</p>
+              </div>
+              <Spinner v-else/>
+          </div> 
+        </div>
+  
+        <div class="card text-white">
+          <div id="details">
+              <div v-if="resume?.length">
+                  <p class="Resume-Title">{{ resume[3].place }}</p>
+                <p class="Resume-Description">{{ resume[3].description }}</p>
               </div>
               <Spinner v-else/>
           </div> 

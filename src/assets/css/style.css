@@ -22,13 +22,11 @@ section{
 :root {
     --primary: rgb(248, 165, 179) ;
     --secondary: white;
-    --alternative: black;
+    --alternative: rgb(7, 3, 3);
     --tertiary: maroon;
     --awesome: rgb(232, 37, 37);
     --mainBox-shadow: black;
-    --card-box-shadow:var(--primary);
-    --text-shadow:var(--primary);
-    --mainBg:var(--primary);
+    --shadow:var(--primary);
 }
 @property --top-left {
     syntax:"<percentage>";
@@ -164,3 +162,37 @@ img[alt='profile'] {
       transform: translateY(0);
     }
   }
+
+  /* About */
+.card {
+    background-color: var(--tertiary)
+    
+}
+
+.cardAbout{
+    width: 90%;
+    max-width: 70rem;
+    margin-left: 5rem;
+    padding: 1rem;
+}
+/* About text */
+.card-text{
+    text-align: left;
+    color: var(--secondary);
+    font-size: 1.5rem;
+}
+
+.card-text1{
+    text-align: left;
+    color: var(--secondary);
+    font-size: 1.3rem;
+
+}
+
+/* Responsiveness for about */
+@media screen and (max-width: 768px) {
+    .cardAbout{
+        width: 90%;
+        margin-left: 0;
+    }
+}
