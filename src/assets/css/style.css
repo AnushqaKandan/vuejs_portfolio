@@ -162,6 +162,23 @@ img[alt='profile'] {
       transform: translateY(0);
     }
   }
+  
+  .lead {
+    opacity: 0; 
+    animation: fadeInRight 1s forwards; 
+    
+  }
+  
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
 
   /* About */
 .card {
@@ -171,7 +188,6 @@ img[alt='profile'] {
 
 .cardAbout{
     width: 90%;
-    max-width: 70rem;
     margin-left: 5rem;
     padding: 1rem;
 }
@@ -189,17 +205,101 @@ img[alt='profile'] {
 
 }
 
-/* Responsiveness for about */
+
+/* Resume */
+.cardResume {
+    margin-top: 1rem;
+}
+img[alt='resume'] {
+    width: 15rem;
+    height: 12rem;
+}
+
+img[alt='resume1'] {
+    width: 15rem;
+    height: 15rem;
+}
+img[alt='resume2'] {
+    width: 17rem;
+    height: 12rem;
+}
+
+.resume-item {
+    display: flex;
+    align-items: center;
+   
+}
+
+.resume-text {
+    margin-left: 1rem;
+}
+
+.card-content {
+    padding: 0.5rem;
+}
+
+
+/* Responsiveness */
+
 @media screen and (max-width: 768px) {
-    .cardAbout{
+    .cardAbout {
         width: 90%;
-        margin-left: 0;
+        margin-left: 2rem;
+    }
+    .lead {
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+    .display-2 {
+        font-size: 2rem;
+    }
+    img[alt='profile'] {
+        width: 90%;
+    }
+    .card-text, .card-text1 {
+        font-size: 1.2rem;
     }
 }
 
-/* Resume */
-img[alt='resume'] {
-    width: 15rem;
-    
+.cardResume {
+    margin-top: 1rem;
 }
 
+img[alt='resume'] {
+    width: 15rem;
+    height: 12rem;
+}
+
+img[alt='resume1'] {
+    width: 15rem;
+    height: 15rem;
+}
+
+img[alt='resume2'] {
+    width: 15rem;
+    height: 15rem;
+}
+
+.resume-item {
+    display: flex;
+    align-items: center;
+}
+
+.resume-text {
+    margin-left: 1rem;
+}
+
+.card-content {
+    padding: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .resume-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .resume-text {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+}
