@@ -243,8 +243,8 @@ img[alt='resume2'] {
 
 @media screen and (max-width: 768px) {
     .cardAbout {
-        width: 90%;
-        margin-left: 2rem;
+        width: 100%;
+        margin-left: 0rem;
     }
     .lead {
         font-size: 3rem;
@@ -257,7 +257,7 @@ img[alt='resume2'] {
         width: 90%;
     }
     .card-text, .card-text1 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
 
@@ -286,7 +286,7 @@ img[alt='resume2'] {
 }
 
 .resume-text {
-    margin-left: 1rem;
+    margin-left: 0rem;
 }
 
 .card-content {
