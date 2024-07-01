@@ -123,6 +123,11 @@ img[alt='profile'] {
     font-family: "Inknut Antiqua", serif;
     margin-top: 7rem;
 }
+.slogan{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Inknut Antiqua", serif;
+}
 
 
 /* Animation for Landing Page */

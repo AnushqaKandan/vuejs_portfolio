@@ -11,7 +11,7 @@
        <div class="col"> 
           <div id="details">
              <h1 class="lead">Anushqa Kandan</h1>
-              <p v-if="title">
+              <p v-if="title" class="slogan">
                  I am 
                 <span>{{ title }}</span>
               </p>
