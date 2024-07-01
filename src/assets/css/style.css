@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital@0;1&display=swap');
+
+*,
+*::after
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* Custom variables */
+::-webkit-scrollbar {
+    display: none;
+}
+
+section{
+    scroll-margin-block: 6.7rem;
+}
+
+/*Custom Variable */
+:root {
+    --primary: rgb(248, 165, 179) ;
+    --secondary: white;
+    --alternative: black;
+    --tertiary: maroon;
+    --awesome: rgb(232, 37, 37);
+    --mainBox-shadow: black;
+    --card-box-shadow:var(--primary);
+    --text-shadow:var(--primary);
+    --mainBg:var(--primary);
+}
+@property --top-left {
+    syntax:"<percentage>";
+    inherits: false;
+    initial-value:50%;
+}
+@property --top-right{
+    syntax: "<Percentage>";
+    inherits: false;
+    initial-value:50%;
+}
+@property --bottom-left{
+    syntax: "<percentage>";
+    inherits: false;
+    initial-value:0%;
+}
+@property --bottom-right {
+    syntax: "<percentage>";
+    inherits: false;
+    initial-value:0%;
+}
+
+/* Bootstrap icon */
+/* wrapper */
+:is(.wrapper){
+    display: grid;
+    grid-template-rows: auto minmax(100dvh, 100%) auto;
+    background-color: var(--primary);
+}
+
+/* app */
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+  }
+
+  /*Navbar & footer*/
+:is(.navbar, footer){
+    background-color: var(--tertiary);
+}
+
+/* Navbar */
+:is(.nav-link) {
+    color: var(--secondary); 
+}
+  
+/* Navbar */
+a { 
+    transition: all .5s;
+ 
+    &:hover {
+     transform: scale(1.2);
+     text-decoration: underline;
+ 
+    }
+ }
+
+/* Page Name Style */
+.display-2{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Tiro Devanagari Hindi", serif;
+
+}
+
+:is(#about, #resume, #skills, #projects, #testimonials, #contactinfo){
+    margin-block: 5rem;
+}
+
+/* Select all images */
+img{
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Logo */
+img[alt='logo'] {
+    aspect-ratio: 1;
+    width: 5rem;
+       
+}
+/* Home Image */
+img[alt='profile'] {
+    width: 25rem;
+    border-color: var(--tertiary);
+    border-radius: 20%;
+}
+
+.lead {
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: "Inknut Antiqua", serif;
+    margin-top: 7rem;
+}
+
+
+/* Animation for Landing Page */
+.image-1 {
+    overflow: hidden;
+  }
+  
+  .image-1{
+    opacity: 0; 
+    animation: fadeInLeft 1s forwards; 
+  }
+  
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  /* Animation for the Home tag */
+  .home-1 {
+    opacity: 0; 
+    animation: fadeInTop 1s forwards; 
+  }
+  
+  @keyframes fadeInTop {
+    from {
+      opacity: 0;
+      transform: translateY(-100%); 
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
