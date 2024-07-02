@@ -14,7 +14,10 @@
     <section class="row" id="skills">
        <SkillsSection />
     </section>
-    <section class="row" id="project"></section>
+    
+    <section class="row" id="projects">
+       <ProjectSection />
+    </section>
     
     <section class="row" id="testimonials"></section>
     
@@ -28,6 +31,7 @@
   import AboutSection from '@/components/AboutSection.vue'
   import ResumeSection from '@/components/ResumeSection.vue'
   import SkillsSection from '@/components/SkillsSection.vue'
+  import ProjectSection from '@/components/ProjectSection.vue'
   
   export default {
     name: 'HomeView',
@@ -35,7 +39,8 @@
       LandingSection,
      AboutSection,
      ResumeSection,
-     SkillsSection
+     SkillsSection,
+     ProjectSection
      
     }
   }
