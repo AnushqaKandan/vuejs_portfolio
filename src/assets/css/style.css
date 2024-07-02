@@ -398,25 +398,69 @@ img[alt='skills1'] {
     }
 }
 
-  img[alt='profile2 key1']{
-    width: 37rem;
-    margin-block: 1rem;
-  }
-
-  img[alt='profile2 flip1']{
-    width: 20rem;
-    height: 20rem;
-    margin-left: 9rem;
-  }
-
-  @media only screen and (max-width: 767px){
-    img[alt='profile2 flip1'] {
-        width: 100%;
-        margin-left: 0; 
-    }
-  }
 
 
 .Project-Title{
     font-weight: bold;
+}
+
+/* Testimonial */
+.Testi-block{
+    background-color: var(--tertiary); 
+    width: 45rem;
+    margin-left: 18rem;
+    border: 2px solid black
+}
+
+img[alt='testi'] {
+    width: 18rem;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+     
+ }
+
+ img[alt='testi1'] {
+    width: 18rem;
+    height: 25rem;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+ }
+
+  @media only screen and (max-width: 768px) {
+    img[alt='testi']  {
+        width: 80%; 
+        margin-left: 0; 
+}
+}
+
+
+@media only screen and (max-width: 768px) {
+    img[alt='testi1']  {
+        width: 80%; 
+        margin-left: 0; 
+}
+} 
+
+@media only screen and (max-width: 1205px) {
+    .Testi-block {
+       width: 100%;
+        margin-left: 0rem; 
+    }
+}
+
+.Testi-text{
+    margin-top: 2rem;
+    text-align: center;
+    width: 22rem;
+    margin-left: 11rem;
+
+}
+
+@media only screen and (max-width: 1205px) {
+    .Testi-text {
+        width: 100%;
+        margin-left: 0rem; 
+    }
 }
