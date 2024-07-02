@@ -186,12 +186,8 @@ img[alt='profile'] {
   }
 
   /* About */
-.card {
-    background-color: var(--tertiary)
-    
-}
-
-.cardAbout{
+.cardAbout{ 
+    background-color: var(--tertiary);
     width: 90%;
     margin-left: 5rem;
     padding: 1rem;
@@ -213,6 +209,7 @@ img[alt='profile'] {
 
 /* Resume */
 .cardResume {
+    background-color: var(--tertiary);
     margin-top: 1rem;
 }
 img[alt='resume'] {
@@ -307,4 +304,28 @@ img[alt='resume2'] {
         margin-left: 0;
         margin-top: 1rem;
     }
+}
+
+/* Skills Section */
+.cardSkills{
+    margin-top: 1rem;
+    width: 20%;
+    border-radius: 10%;
+    
+}
+
+img[alt='skills'] {
+ margin-top: 0.5rem;   
+}
+
+img[alt='skills1'] {
+    height: 10rem;  
+   }
+
+.card-body{
+    background-color: var(--tertiary);
+    height: 5rem;
+    margin-top: 1rem;
+    border-bottom-left-radius:10%;
+    border-bottom-right-radius:10%;
 }
