@@ -109,8 +109,3 @@ import { computed, onMounted } from 'vue'
       store.dispatch('fetchProjects')
   })
 </script>
-
-
-<style>
-
-</style>
