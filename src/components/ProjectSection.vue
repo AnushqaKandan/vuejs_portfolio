@@ -13,8 +13,8 @@
                   <div class="row flex-column flex-md-row">
                     <p class="Project-Description">{{ projects[0].description }}</p>
                 <div class="col">
-                   <a href="https://github.com/AnushqaKandan/Rangeela-Royalty.git" class="card-link">Github</a>
-                   <a href="https://rangeela-royalty.vercel.app/" class="card-link">Live</a>
+                   <a href="https://github.com/AnushqaKandan/Rangeela-Royalty.git" class="card-link" target="blank">Github</a>
+                   <a href="https://rangeela-royalty.vercel.app/" class="card-link" target="blank">Live</a>
                </div>
                   </div>
                 </div>
@@ -29,8 +29,8 @@
                   <div class="row flex-column flex-md-row">
                     <p class="Project-Description">{{ projects[1].description }}</p>
                 <div class="col">
-                    <a href="https://github.com/AnushqaKandan/calculator.git" class="card-link">Github</a>
-                    <a href="https://calculator-anushqas-projects.vercel.app/" class="card-link">Live</a>
+                    <a href="https://github.com/AnushqaKandan/calculator.git" class="card-link" target="blank">Github</a>
+                    <a href="https://calculator-anushqas-projects.vercel.app/" class="card-link" target="blank">Live</a>
                </div>
                     </div>
                  
@@ -47,8 +47,8 @@
                   <div class="row flex-column flex-md-row">
                     <p class="Project-Description">{{ projects[2].description }}</p>
                 <div class="col">
-                    <a href="https://github.com/AnushqaKandan/Salon.git" class="card-link">Github</a>
-                    <a href="https://salon-anushqas-projects.vercel.app/" class="card-link">Live</a>
+                    <a href="https://github.com/AnushqaKandan/Salon.git" class="card-link" target="blank">Github</a>
+                    <a href="https://salon-anushqas-projects.vercel.app/" class="card-link" target="blank">Live</a>
                </div>
                     </div>
                   
@@ -64,8 +64,8 @@
                   <div class="row flex-column flex-md-row">
                     <p class="Project-Description">{{ projects[3].description }}</p>
                 <div class="col">
-                    <a href="https://github.com/AnushqaKandan/Keyboard.git" class="card-link">Github</a>
-                    <a href="https://keyboard-anushqas-projects.vercel.app/" class="card-link">Live</a>
+                    <a href="https://github.com/AnushqaKandan/Keyboard.git" class="card-link" target="blank">Github</a>
+                    <a href="https://keyboard-anushqas-projects.vercel.app/" class="card-link" target="blank">Live</a>
                </div>
                   </div>
                 </div>
@@ -80,8 +80,8 @@
                   <div class="row flex-column flex-md-row">
                     <p class="Project-Description">{{ projects[4].description }}</p>
                 <div class="col">
-                   <a href="https://github.com/AnushqaKandan/To-do-list.git" class="card-link">Github</a>
-                   <a href="https://to-do-list-8nsop4h58-anushqas-projects.vercel.app/" class="card-link">Live</a>
+                   <a href="https://github.com/AnushqaKandan/To-do-list.git" class="card-link" target="blank">Github</a>
+                   <a href="https://to-do-list-8nsop4h58-anushqas-projects.vercel.app/" class="card-link" target="blank">Live</a>
                </div>
                     </div>
                  

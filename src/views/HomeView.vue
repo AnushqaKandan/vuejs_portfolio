@@ -23,7 +23,9 @@
        <TestimonialsSection />
     </section>
     
-    <section class="row" id="reachMe"></section>
+    <section class="row" id="contact">
+       <ContactSection />
+    </section>
     
     </div>
   </template>
@@ -35,6 +37,7 @@
   import SkillsSection from '@/components/SkillsSection.vue'
   import ProjectSection from '@/components/ProjectSection.vue'
   import TestimonialsSection from '@/components/TestimonialsSection.vue'
+  import ContactSection from '@/components/ContactSection.vue'
   
   export default {
     name: 'HomeView',
@@ -44,7 +47,8 @@
      ResumeSection,
      SkillsSection,
      ProjectSection,
-     TestimonialsSection
+     TestimonialsSection,
+     ContactSection
      
     }
   }

@@ -4,7 +4,8 @@
           <h2 class="display-2">Skills</h2>
       </div>
 
-   <div class="col"> 
+
+   <div class="skills-grid"> 
      <div class="card text-white cardSkills">
       <div id="details">
         <div v-if="skills?.length">
