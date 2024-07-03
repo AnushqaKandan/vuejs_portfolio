@@ -48,7 +48,7 @@
     <div class="card text-white cardSkills">
      <div id="details">
         <div v-if="skills?.length">
-            <img src="https://anushqakandan.github.io/All-images/vue/Javascript3.png" alt="skills" class="img-skills" loading="lazy">
+            <img src="https://anushqakandan.github.io/All-images/vue/Javascript3.png" alt="skills2" class="img-skills" loading="lazy">
           <div class="card-body">
             <p class="Skills-Name">{{ skills[3].name }}</p>
             <p class="Skills-Level">{{ skills[3].level }}</p>
