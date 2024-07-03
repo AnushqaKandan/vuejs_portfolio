@@ -89,6 +89,24 @@
                 <Spinner v-else/>
             </div> 
         </div>
+        <div class="card text-white Proj-block">
+            <div id="details" class="card-content">
+                <div v-if="projects?.length" class="proj-item">
+                      <p class="Project-Title">{{ projects[5].name }}</p>   
+                  <img src="https://anushqakandan.github.io/All-images/vue/Flipcard.png" alt="project" class="img-fluid" loading="lazy">
+                  <div class="row flex-column flex-md-row">
+                    <p class="Project-Description">{{ projects[5].description }}</p>
+                <div class="col">
+                   <a href="https://github.com/AnushqaKandan/Flipcard.git" class="card-link" target="blank">Github</a>
+                   <a href="https://flipcard-anushqas-projects.vercel.app/" class="card-link" target="blank">Live</a>
+               </div>
+                    </div>
+                 
+                </div>
+                <Spinner v-else/>
+            </div> 
+        </div>
+        
         
 
       </div>
