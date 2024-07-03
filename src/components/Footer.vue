@@ -19,4 +19,7 @@ export default {
 
 <style>
 
+footer{
+    margin-top: 1rem ;
+}
 </style>

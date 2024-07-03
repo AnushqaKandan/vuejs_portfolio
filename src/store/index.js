@@ -35,6 +35,9 @@ export default createStore({
       },
       setProjects(state, value) {
         state.projects = value
+      },
+      setContact(state, value) {
+        state.contact = value
       }},
 
   actions: { 
@@ -116,6 +119,20 @@ async fetchProjects(context){
   Swal.fire({
     title: "Error",
     text: "Failed to fetch the projects",
+    icon: "error",
+    timer: 2000
+  })
+}
+},
+  
+async fetchContact(context){
+  try{
+      let {contact}= await (await axios.get(portfolioURL)).data
+  context.commit("setContact", contact)
+} catch(e){
+  Swal.fire({
+    title: "Error",
+    text: "Failed to fetch the contact",
     icon: "error",
     timer: 2000
   })
