@@ -120,14 +120,18 @@
 <script setup>
 import Spinner from './Spinner.vue'
 import { computed, onMounted } from 'vue'
-  import { useStore } from 'vuex'
-  const store = useStore()
-  const testimonials = computed(() => store.state.testimonials)
-  
-  
-  onMounted(() => {
-      store.dispatch('fetchTestimonials')
-  })
+import { useStore } from 'vuex'
+
+const store = useStore()
+const testimonials = computed(() => store.state.testimonials)
+
+onMounted(async () => {
+  try {
+    await store.dispatch('fetchTestimonials')
+  } catch (error) {
+    console.error('Failed to fetch testimonials:', error)
+  }
+})
 </script>
 
 
