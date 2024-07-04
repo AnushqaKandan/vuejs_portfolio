@@ -79,12 +79,23 @@ section{
 a { 
     transition: all .5s;
  
-    &:hover {
-     transform: scale(1.2);
-     text-decoration: underline;
- 
-    }
+
  }
+
+ .navbar a:hover {
+    transform: scale(1.2);
+    text-decoration: underline;
+    color: var(--primary); 
+}
+
+.navbar-toggler {
+    border-color: var(--primary); 
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='pink' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); 
+}
+ 
 
 /* Page Name Style */
 .display-2{
@@ -551,6 +562,7 @@ img[alt='testi'] {
      display: flex;
      justify-content: center;
      gap: 5rem; 
+     padding-bottom: 1rem;
  }
  
  :is(.fa-brands){
