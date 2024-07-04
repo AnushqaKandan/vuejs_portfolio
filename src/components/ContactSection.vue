@@ -23,7 +23,7 @@
             <Spinner v-else/>
        </div>
        
-       <form action="https://formspree.io/f/moqgrgpe" method="POST">
+       <form action="https://formspree.io/f/myzgydyw" method="POST">
                 <div class="mb-3">
                   <label for="exampleInputName" class="form-label">Name</label>
                   <input
