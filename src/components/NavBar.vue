@@ -41,7 +41,7 @@
               <a class="nav-link" href="#testimonials">Testimonials</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#reachMe">Contact Info</a>
+              <a class="nav-link" href="#contact">Contact Info</a>
             </li>
           </ul>
         </div>
