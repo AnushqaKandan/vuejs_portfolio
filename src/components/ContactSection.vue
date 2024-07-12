@@ -13,11 +13,10 @@
               <p><i class="fa-solid fa-envelope"></i> Email Address: {{ contact[0].email }}</p>
              <p><i class="fa-sharp fa-solid fa-location-dot"></i> Location: {{ contact[0].location }}</p>  
              <p>
-                <a href=" https://github.com/anushqakandan" target="blank"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/anushqa-kandan-09379a317/" target="blank"> <i class="fa-brands fa-linkedin"></i></a>
+                <a class="icon" href=" https://github.com/anushqakandan" target="blank"><i class="fa-brands fa-github"></i></a>
+                <a class="icon" href="https://www.linkedin.com/in/anushqa-kandan-09379a317/" target="blank"> <i class="fa-brands fa-linkedin"></i></a>
                                                             
                
-                
             </p>
             </div>
             <Spinner v-else/>
