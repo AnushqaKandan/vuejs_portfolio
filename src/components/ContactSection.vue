@@ -58,8 +58,8 @@
                   ></textarea>
                 </div>
                 <div class="last-button">
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                  <button type="reset" class="btn btn-primary">Clear</button>
+                  <button type="submit" class="btn">Submit</button>
+                  <button type="reset" class="btn">Clear</button>
                 </div>
               </form>        
       </div>
@@ -81,3 +81,4 @@ onMounted(() => {
 })
 
 </script>
+

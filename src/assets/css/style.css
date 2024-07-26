@@ -578,3 +578,11 @@ img[alt='testi1'] {
  .icon{
     color: white;
  }
+
+ .btn{
+    background-color: var(--primary);
+ }
+
+ .btn:hover {
+    transform: scale(1.2);
+}
